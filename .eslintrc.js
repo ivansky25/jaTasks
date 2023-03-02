@@ -1,4 +1,9 @@
 module.exports = {
+	extends: 'google',
+  quotes: [2, 'single'],
+  globals: {
+    SwaggerEditor: false
+  },
 	'env': {
 		'browser': true,
 		'es2021': true
@@ -15,10 +20,7 @@ module.exports = {
 			'error',
 			'tab'
 		],
-		'linebreak-style': [
-			'error',
-			'windows'
-		],
+		'linebreak-style': 0,
 		'quotes': [
 			'error',
 			'single'
